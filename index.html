@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body >
+    <div>
+        <div class="p-3 w-100">
+            <h1>Weather Dashboard</h1>
+        </div>
+        <div class="d-flex p-2 pt-3">
+            <div>    
+                <h2>
+                    Search for a city
+                </h2>
+                <input id="cityinput" class="mb-4" type="text">
+                <div>
+                    <button id="btn">Search</button>
+                    <div id="savedcity">
+                        
+                    </div>
+                </div>
+                <ul>
+
+                </ul>
+            </div>
+            <div id="weatherContainer container w-100">
+                <div class="daycontainer d-flex-column d-block border p-4">
+                    <p class="city-name"></p>
+                    <p class="date"></p>
+                    <div class="img"></div>
+                    <p class="tempeture"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div> 
+            </div>
+        </div>
+        <div class="justify-content-around">
+            <div id="weatherContainer d-flex-column justify-content-end">
+                <div class="daycontainer col-2 d-block d-md-inline-block border p-4">
+                    <p class="date-one"></p>
+                    <div class="img1"></div>
+                    <p class="tempeture1"></p>
+                    <p class="wind1"></p>
+                    <p class="humidity1"></p>
+                </div>
+                <div class="daycontainer col-2 d-md-inline-block border p-4">
+                    <p class="date-two"></p>
+                    <div class="img2"></div>
+                    <p class="tempeture2"></p>
+                    <p class="wind2"></p>
+                    <p class="humidity2"></p>
+                </div>
+                <div class="daycontainer col-2 d-md-inline-block border p-4">
+                    <p class="date-three"></p>
+                    <div class="img3"></div>
+                    <p class="tempeture3"></p>
+                    <p class="wind3"></p>
+                    <p class="humidity3"></p>
+                </div>
+                <div class="daycontainer col-2 d-md-inline-block border p-4">
+                    <p class="date-four"></p>
+                    <div class="img4"></div>
+                    <p class="tempeture4"></p>
+                    <p class="wind4"></p>
+                    <p class="humidity4"></p>
+                </div>
+                <div class="daycontainer col-2 d-md-inline-block border p-4">
+                    <p class="date-five"></p>
+                    <div class="img5"></div>
+                    <p class="tempeture5"></p>
+                    <p class="wind5"></p>
+                    <p class="humidity5"></p>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
